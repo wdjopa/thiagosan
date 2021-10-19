@@ -285,14 +285,14 @@ img {
   width: 100%;
   height: 5px;
   background: #cc1573;
-  background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-  background: linear-gradient(to right, #cc1573, #5722a9); }
+  background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+  background: linear-gradient(to right, #cc1573, #e91e63); }
 
 /* :: 3.7.0 ScrollUp */
 #scrollUp {
   background: #cc1573;
-  background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-  background: linear-gradient(to right, #cc1573, #5722a9);
+  background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+  background: linear-gradient(to right, #cc1573, #e91e63);
   border-radius: 0;
   bottom: 50px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -309,8 +309,8 @@ img {
 /* :: 3.8.0 Thiago San Button */
 .thiago_san-btn {
   background: #cc1573;
-  background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-  background: linear-gradient(to right, #cc1573, #5722a9);
+  background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+  background: linear-gradient(to right, #cc1573, #e91e63);
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   position: relative;
@@ -344,20 +344,20 @@ img {
     width: 133px;
     height: 42px;
     border-left: 3px solid #cc1573;
-    border-right: 3px solid #5722a9;
+    border-right: 3px solid #e91e63;
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 3px;
-    background-image: -webkit-linear-gradient(left, #cc1573 0%, #5722a9 100%), -webkit-linear-gradient(left, #cc1573 0%, #5722a9 100%);
-    background-image: linear-gradient(to right, #cc1573 0%, #5722a9 100%), linear-gradient(to right, #cc1573 0%, #5722a9 100%); }
+    background-image: -webkit-linear-gradient(left, #cc1573 0%, #e91e63 100%), -webkit-linear-gradient(left, #cc1573 0%, #e91e63 100%);
+    background-image: linear-gradient(to right, #cc1573 0%, #e91e63 100%), linear-gradient(to right, #cc1573 0%, #e91e63 100%); }
     .thiago_san-btn.btn-3::after {
       -webkit-transition-duration: 750ms;
       transition-duration: 750ms;
       color: #ffffff;
       background: #cc1573;
-      background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-      background: -webkit-linear-gradient(left, #cc1573, #5722a9);
-      background: linear-gradient(to right, #cc1573, #5722a9);
+      background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+      background: -webkit-linear-gradient(left, #cc1573, #e91e63);
+      background: linear-gradient(to right, #cc1573, #e91e63);
       content: '';
       position: absolute;
       width: 100%;
@@ -955,8 +955,8 @@ img {
     .featured-shows-slides .owl-prev:hover,
     .featured-shows-slides .owl-next:hover {
       background: #cc1573;
-      background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-      background: linear-gradient(to right, #cc1573, #5722a9);
+      background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+      background: linear-gradient(to right, #cc1573, #e91e63);
       color: #ffffff; }
   .featured-shows-slides .owl-next {
     left: auto;
@@ -977,8 +977,8 @@ img {
   margin: 200px 7% 250px 7%;
   padding: 60px 30px;
   background: #cc1573;
-  background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-  background: linear-gradient(to right, #cc1573, #5722a9);
+  background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+  background: linear-gradient(to right, #cc1573, #e91e63);
   opacity: 0.8; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .search-your-shows-content {
@@ -1429,8 +1429,8 @@ img {
   margin-bottom: 30px; }
   .single-service-area .course-title span {
     background: #cc1573;
-    background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-    background: linear-gradient(to right, #cc1573, #5722a9);
+    background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+    background: linear-gradient(to right, #cc1573, #e91e63);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 72px;
@@ -1508,8 +1508,8 @@ img {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
       background: #cc1573;
-      background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-      background: linear-gradient(to right, #cc1573, #5722a9);
+      background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+      background: linear-gradient(to right, #cc1573, #e91e63);
       position: absolute;
       z-index: 10;
       top: 0;
@@ -1567,8 +1567,8 @@ img {
     margin-left: -196px;
     z-index: 100;
     background: #cc1573;
-    background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-    background: linear-gradient(to right, #cc1573, #5722a9);
+    background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+    background: linear-gradient(to right, #cc1573, #e91e63);
     text-align: center; }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .bradcumbContent {
@@ -1835,8 +1835,8 @@ img {
   margin-bottom: 0; }
   .single-accordion h6 a {
     background: #cc1573;
-    background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-    background: linear-gradient(to right, #cc1573, #5722a9);
+    background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+    background: linear-gradient(to right, #cc1573, #e91e63);
     border-radius: 0;
     color: #ffffff;
     display: block;
@@ -1867,8 +1867,8 @@ img {
       color: #6a6a6a; }
       .single-accordion h6 a.collapsed span {
         background: #cc1573;
-        background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-        background: linear-gradient(to right, #cc1573, #5722a9); }
+        background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+        background: linear-gradient(to right, #cc1573, #e91e63); }
         .single-accordion h6 a.collapsed span.accor-close {
           opacity: 0; }
         .single-accordion h6 a.collapsed span.accor-open {
@@ -1908,8 +1908,8 @@ img {
           padding: 0 15px; } }
       .thiago_san-tabs-content .nav-tabs .nav-link.active {
         background: #cc1573;
-        background: -webkit-linear-gradient(to right, #cc1573, #5722a9);
-        background: linear-gradient(to right, #cc1573, #5722a9);
+        background: -webkit-linear-gradient(to right, #cc1573, #e91e63);
+        background: linear-gradient(to right, #cc1573, #e91e63);
         color: #ffffff; }
   .thiago_san-tabs-content .thiago_san-tab-text p span {
     font-size: 36px;
