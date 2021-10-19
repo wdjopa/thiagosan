@@ -12,7 +12,7 @@
     <meta property="og:title" content="Achetez l'album Vamos - Thiago San" />
     <meta property="og:description" content="Soutenez le projet et achetez le dernier album de Thiago San" />
     <meta property="og:url" content="https://thiagosan.com/" />
-    <meta property="og:image" content="https://thiagosan.com/img/logo.png" />
+    <meta property="og:image" content="https://thiagosan.com/img/pochette.jpg" />
     <meta property="og:site_name" content="Vamos - Thiago San" />
 
     <!-- Title -->
