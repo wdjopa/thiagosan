@@ -43,6 +43,9 @@
             }
         }
 
+        .featured-album-area{
+            overflow: auto;
+        }
         .copywrite-text a {
             color: blueviolet !important;
             font-weight: 600 !important;
