@@ -168,7 +168,7 @@
                                     <h4>Vamos</h4>
                                 </div>
                                 <div class="album-buy-now">
-                                    <a href="#" class="btn thiago_san-btn">Acheter l'album</a>
+                                    <a href="https://shr.cm/albumThiagoSan" class="btn thiago_san-btn">Acheter l'album</a>
                                 </div>
                             </div>
 
@@ -181,12 +181,12 @@
                             </div>
 
                             <!-- Now Playing -->
-                            <div class="now-playing d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="now-playing d-flex flex-wrap align-items-center justify-content-between active_player">
                                 <div class="songs-name">
                                     <p>Playing</p>
                                     <h6 class="playing-song">La Ronneda</h6>
                                 </div>
-                                <audio preload="auto" controls>
+                                <audio preload="auto" controls id="player">
                                     <source src="audio/la_ronneda.aac">
                                 </audio>
                             </div>
@@ -222,15 +222,14 @@
                 <div class="col-12 col-lg-6">
                     <div class="about-content mb-100">
                         <h4>Hello la mif, c'est Thiago San</h4>
-                        <p>Nulla pretium tincidunt felis, nec sollicitudin mauris lobortis in. Aliquam eu feugiat
-                            ligula, laoreet efficitur nulla. Morbi nec neque porta, elementum massa at, vehicula nunc.
-                            Nulla facilisi. Donec id purus eu lectus imperdiet varius. Curabitur consectetur nunc sem,
-                            vitae cursus enim tempor eget. Praesent pellentesque nisi urna, sit amet suscipit ligula
-                            posuere id. Aenean id tortor vel quam ornare gravida. Phasellus luctus feugiat nunc, quis
-                            vulputate ipsum convallis quis. Integer vel nulla erat. Donec erat metus, luctus quis
-                            maximus quis, volutpat eu tellus. Interdum et malesuada fames ac ante ipsum primis in
-                            faucibus.</p>
-                        <img src="img/core-img/signature.png" alt="">
+                        <p>Qu'on soit claire, le but de Vamos est de prouver qu'avec de la passion, du travail et de la prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de vivre tous les jours la vie que je veux avant même de l'avoir.
+                        <br>
+                        <br>
+                        Merci pour votre soutien. Le Ciel est avec nous et nadie nos detendrá.
+                        <br>
+                        <br>
+                        Hasta luego !</p>
+                        <!-- <img src="img/core-img/signature.png" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -239,7 +238,7 @@
     <!-- ##### About Us Area End ##### -->
 
     <!-- ##### Career Timeline Area Start ##### -->
-    <div class="career-timeline-area section-padding-100 d-none">
+    <!-- <div class="career-timeline-area section-padding-100 d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -253,13 +252,10 @@
             <div class="row">
                 <div class="col-12">
 
-                    <!-- Single Timeline Area -->
                     <div class="single-timeline-area d-flex">
-                        <!-- Timeline Date -->
                         <div class="timeline-date">
                             <h2>17 <span>July 1983</span></h2>
                         </div>
-                        <!-- Timeline Content -->
                         <div class="timeline-content">
                             <h5>My childhood</h5>
                             <p>Nulla facilisi. Donec id purus eu lectus imperdiet varius. Curabitur consectetur nunc
@@ -273,13 +269,10 @@
                         </div>
                     </div>
 
-                    <!-- Single Timeline Area -->
                     <div class="single-timeline-area d-flex">
-                        <!-- Timeline Date -->
                         <div class="timeline-date">
                             <h2>25 <span>May 2004</span></h2>
                         </div>
-                        <!-- Timeline Content -->
                         <div class="timeline-content">
                             <h5>Early career years</h5>
                             <p>Nulla facilisi. Donec id purus eu lectus imperdiet varius. Curabitur consectetur nunc
@@ -293,13 +286,10 @@
                         </div>
                     </div>
 
-                    <!-- Single Timeline Area -->
                     <div class="single-timeline-area d-flex">
-                        <!-- Timeline Date -->
                         <div class="timeline-date">
                             <h2>08 <span>May 2007</span></h2>
                         </div>
-                        <!-- Timeline Content -->
                         <div class="timeline-content">
                             <h5>First Album Release</h5>
                             <p>Nulla facilisi. Donec id purus eu lectus imperdiet varius. Curabitur consectetur nunc
@@ -313,13 +303,10 @@
                         </div>
                     </div>
 
-                    <!-- Single Timeline Area -->
                     <div class="single-timeline-area d-flex">
-                        <!-- Timeline Date -->
                         <div class="timeline-date">
                             <h2>30 <span>May 2009</span></h2>
                         </div>
-                        <!-- Timeline Content -->
                         <div class="timeline-content">
                             <h5>My First Live Concert</h5>
                             <p>Nulla facilisi. Donec id purus eu lectus imperdiet varius. Curabitur consectetur nunc
@@ -346,19 +333,18 @@
 
         </div>
 
-        <!-- Side Thumbs -->
         <div class="first-img">
             <img src="img/bg-img/man.png" alt="">
         </div>
         <div class="second-img">
             <img src="img/bg-img/microphone.png" alt="">
         </div>
-    </div>
+    </div> -->
     <!-- ##### Career Timeline Area End ##### -->
 
 
     <!-- ##### Upcoming Shows Area Start ##### -->
-    <div class="upcoming-shows-area section-padding-100 d-none">
+    <!-- <div class="upcoming-shows-area section-padding-100 d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -371,10 +357,8 @@
 
             <div class="row">
                 <div class="col-12">
-                    <!-- Upcoming Shows Content -->
                     <div class="upcoming-shows-content">
 
-                        <!-- Single Upcoming Shows -->
                         <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
                             <div class="shows-date">
                                 <h2>17 <span>July</span></h2>
@@ -399,7 +383,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Upcoming Shows -->
                         <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
                             <div class="shows-date">
                                 <h2>23 <span>July</span></h2>
@@ -424,7 +407,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Upcoming Shows -->
                         <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
                             <div class="shows-date">
                                 <h2>25 <span>July</span></h2>
@@ -449,7 +431,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Upcoming Shows -->
                         <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
                             <div class="shows-date">
                                 <h2>30 <span>July</span></h2>
@@ -478,17 +459,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ##### Upcoming Shows Area End ##### -->
 
     <!-- ##### Music Player Area Start ##### -->
-    <div class="music-player-area section-padding-100 d-none">
+    <!-- <div class="music-player-area section-padding-100 d-none">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="music-player-slides owl-carousel">
 
-                        <!-- Single Music Player -->
                         <div class="single-music-player">
                             <img src="img/bg-img/mp1.jpg" alt="">
 
@@ -505,7 +485,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Music Player -->
                         <div class="single-music-player">
                             <img src="img/bg-img/mp2.jpg" alt="">
 
@@ -522,7 +501,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Music Player -->
                         <div class="single-music-player">
                             <img src="img/bg-img/mp3.jpg" alt="">
 
@@ -539,7 +517,6 @@
                             </div>
                         </div>
 
-                        <!-- Single Music Player -->
                         <div class="single-music-player">
                             <img src="img/bg-img/mp4.jpg" alt="">
 
@@ -560,11 +537,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ##### Music Player Area End ##### -->
 
     <!-- ##### CTA Area Start ##### -->
-    <div class="thiago_san-cta-area section-padding-100 bg-img bg-overlay2 d-none"
+    <!-- <div class="thiago_san-cta-area section-padding-100 bg-img bg-overlay2 d-none"
         style="background-image: url(img/bg-img/bg-8.jpg);">
         <div class="container">
             <div class="row">
@@ -582,7 +559,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ##### CTA Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
@@ -631,8 +608,8 @@
                         <div class="widget-title">
                             <h4>Subscribe</h4>
                         </div>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail"
+                        <form class="subscribe-form">
+                            <input type="email"  onsubmit="subscribe_to_newsletter(event)" name="subscribe-email" id="email"
                                 placeholder="Enter your email">
                             <button type="submit">subscribe</button>
                         </form>
@@ -655,6 +632,25 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script>
+    function subscribe_to_newsletter(e){
+        e.preventDefault()
+        $.ajax({
+            url : 'https://newsletters.lamater.tech/api/contacts', // La ressource ciblée
+            type : 'POST', // Le type de la requête HTTP.
+            dataType : 'json',
+            contentType: "application/json",
+            data : JSON.stringify({
+                id_form:"MdnGBTQubx",
+                tel: $("#email").val()
+            }),
+            success : function(code_html, statut){ // code_html contient le HTML renvoyé
+                alert("Votre inscription a été prise en compte")
+            }
+        })
+   }
+   </script>
 
     <script>
 
