@@ -43,9 +43,10 @@
             }
         }
 
-        .featured-album-area{
+        .featured-album-area {
             overflow: auto;
         }
+
         .copywrite-text a {
             color: blueviolet !important;
             font-weight: 600 !important;
@@ -147,59 +148,9 @@
         </div> -->
     </section>
     <!-- ##### Hero Area End ##### -->
-    <!-- ##### Featured Album Area Start ##### -->
-    <div class="featured-album-area section-padding-100 clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="featured-album-content d-flex flex-wrap">
 
-                        <!-- Album Thumbnail -->
-                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg);">
-                        </div>
-
-                        <!-- Album Songs -->
-                        <div class="album-songs h-100">
-
-                            <!-- Album Info -->
-                            <div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
-                                <div class="album-title">
-                                    <h6>Dernier album</h6>
-                                    <h4>Vamos</h4>
-                                </div>
-                                <div class="album-buy-now">
-                                    <a href="https://shr.cm/albumThiagoSan" class="btn thiago_san-btn">Acheter l'album</a>
-                                </div>
-                            </div>
-
-                            <div class="album-all-songs">
-
-                                <!-- Music Playlist -->
-                                <div class="music-playlist">
-                                    <!-- Single Song -->
-                                </div>
-                            </div>
-
-                            <!-- Now Playing -->
-                            <div class="now-playing d-flex flex-wrap align-items-center justify-content-between active_player">
-                                <div class="songs-name">
-                                    <p>Playing</p>
-                                    <h6 class="playing-song">La Ronneda</h6>
-                                </div>
-                                <audio preload="auto" controls id="player">
-                                    <source src="audio/la_ronneda.aac">
-                                </audio>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Featured Album Area End ##### -->
-    <!-- ##### About Us Area Start ##### -->
-    <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url('img/thiago.jpg');"
+      <!-- ##### About Us Area Start ##### -->
+      <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url('img/thiago.jpg');"
         id="about">
         <div class="container">
             <div class="row">
@@ -222,13 +173,17 @@
                 <div class="col-12 col-lg-6 " style="display: flex; align-items: center">
                     <div class="about-content mb-100">
                         <h4>Hello la mif, c'est Thiago San</h4>
-                        <p>Qu'on soit clair, le but de Vamos est de prouver qu'avec de la passion, du travail et de la prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de vivre tous les jours la vie que je veux avant même de l'avoir.
-                        <br>
-                        <br>
-                        Merci pour votre soutien. Le Ciel est avec nous et nadie nos detendrá.
-                        <br>
-                        <br>
-                        Hasta luego !</p>
+                        <p>Qu'on soit clair, le but de Vamos est de prouver qu'avec de la passion, du travail et de la
+                            prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est
+                            pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce
+                            projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de
+                            vivre tous les jours la vie que je veux avant même de l'avoir.
+                            <br>
+                            <br>
+                            Merci pour votre soutien. Le Ciel est avec nous et nadie nos detendrá.
+                            <br>
+                            <br>
+                            Hasta luego !</p>
                         <!-- <img src="img/core-img/signature.png" alt=""> -->
                     </div>
                 </div>
@@ -237,6 +192,61 @@
     </div>
     <!-- ##### About Us Area End ##### -->
 
+    
+    <!-- ##### Featured Album Area Start ##### -->
+    <div class="featured-album-area section-padding-100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="featured-album-content d-flex flex-wrap">
+
+                        <!-- Album Thumbnail -->
+                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg);">
+                        </div>
+
+                        <!-- Album Songs -->
+                        <div class="album-songs h-100">
+
+                            <!-- Album Info -->
+                            <div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="album-title">
+                                    <h6>Album</h6>
+                                    <h4>Vamos</h4>
+                                </div>
+                                <div class="album-buy-now">
+                                    <a target="_blank" href="https://shr.cm/albumThiagoSan"
+                                        class="btn thiago_san-btn">Précommander l'album</a>
+                                </div>
+                            </div>
+
+                            <div class="album-all-songs">
+
+                                <!-- Music Playlist -->
+                                <div class="music-playlist">
+                                    <!-- Single Song -->
+                                </div>
+                            </div>
+
+                            <!-- Now Playing -->
+                            <!-- <div
+                                class="now-playing d-flex flex-wrap align-items-center justify-content-between active_player">
+                                <div class="songs-name">
+                                    <p>Playing</p>
+                                    <h6 class="playing-song">La Ronneda</h6>
+                                </div>
+                                <audio preload="auto" controls id="player">
+                                    <source src="audio/la_ronneda.aac">
+                                </audio>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Featured Album Area End ##### -->
+  
     <!-- ##### Career Timeline Area Start ##### -->
     <!-- <div class="career-timeline-area section-padding-100 d-none">
         <div class="container">
@@ -573,7 +583,9 @@
                         <a href="#" style="font-size: 4rem; font-family: 'Allura', cursive;">Thiago San</a>
                         <p class="copywrite-text">
                             Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved | Made by
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | Made by
                             <a href="https://lamater.tech" target="_blank">La Mater Tech</a> and hosted with <a
                                 href="https://hostme.space" target="_blank">Hostme.space</a>.
                         </p>
@@ -609,8 +621,7 @@
                             <h4>Subscribe</h4>
                         </div>
                         <form class="subscribe-form" onsubmit="subscribe_to_newsletter(event)">
-                            <input type="email"   name="subscribe-email" id="email"
-                                placeholder="Enter your email">
+                            <input type="email" name="subscribe-email" id="email" placeholder="Enter your email">
                             <button type="submit">subscribe</button>
                         </form>
                     </div>
@@ -634,82 +645,83 @@
     <script src="js/active.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
     <script>
-    function subscribe_to_newsletter(e){
-        e.preventDefault()
-        $.ajax({
-            url : 'https://newsletters.lamater.tech/api/contacts', // La ressource ciblée
-            type : 'POST', // Le type de la requête HTTP.
-            dataType : 'json',
-            contentType: "application/json",
-            data : JSON.stringify({
-                id_form:"MdnGBTQubx",
-                tel: $("#email").val()
-            }),
-            success : function(code_html, statut){ // code_html contient le HTML renvoyé
-                $("#email").val("")
-                alert("Votre inscription a été prise en compte")
-            }
-        })
-   }
-   </script>
+        function subscribe_to_newsletter(e) {
+            e.preventDefault()
+            $.ajax({
+                url: 'https://newsletters.lamater.tech/api/contacts', // La ressource ciblée
+                type: 'POST', // Le type de la requête HTTP.
+                dataType: 'json',
+                contentType: "application/json",
+                data: JSON.stringify({
+                    id_form: "MdnGBTQubx",
+                    tel: $("#email").val()
+                }),
+                success: function (code_html, statut) { // code_html contient le HTML renvoyé
+                    $("#email").val("")
+                    alert("Votre inscription a été prise en compte")
+                }
+            })
+        }
+    </script>
 
     <script>
-
-        let album = [
-            {
+        let album = [{
                 title: "La Ronneda",
                 link: "audio/la_ronneda.aac",
+                id: "la_ronneda"
             },
             {
-                title: "J'te cherche ft Thalia",
-                link: "audio/la_ronneda.aac",
+                title: "J'te cherche ft Thalia (Extrait)",
+                link: "audio/jte_cherche.mp3",
+                id: "jte_cherche"
             },
-            {
-                title: "My Light ",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "Electrik Party",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "Nothing On You",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "I Never Go",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: " I Don't Flex Anymore",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: " I Want To Fight",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "I Miss Me",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "That's Why",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "Dans Ma Tête",
-                link: "audio/la_ronneda.aac",
-            },
-            {
-                title: "Open The Door",
-                link: "audio/la_ronneda.aac",
-            },
+            // {
+            //     title: "My Light ",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "Electrik Party",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "Nothing On You",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "I Never Go",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: " I Don't Flex Anymore",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: " I Want To Fight",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "I Miss Me",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "That's Why",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "Dans Ma Tête",
+            //     link: "audio/la_ronneda.aac",
+            // },
+            // {
+            //     title: "Open The Door",
+            //     link: "audio/la_ronneda.aac",
+            // },
         ]
         album.forEach(morceau => {
             $(".music-playlist").append(`
-                <div class="single-music">
+                <div class="single-music ${morceau.id}" >
                     <h6>${morceau.title}</h6>
-                    <audio preload="auto" controls>
+                    <audio preload="auto" controls 
+                  >
                         <source src="${morceau.link}">
                     </audio>
                 </div>
@@ -717,6 +729,49 @@
         })
         $('audio').audioPlayer();
 
+
+        // album.forEach(morceau => {
+        //     $("." + morceau.id + " .audioplayer").
+        //     document.querySelector("." + morceau.id + " .audioplayer-playpause").addEventListener("click", (
+        //         e) => {
+        //             console.log(e.target)
+        //         click_track(morceau.id)
+        //     })
+        // })
+
+        // function click_track(morceau_id) {
+        //     console.log("itplays")
+
+        //     album.forEach(morceau => {
+        //         if(morceau.id != morceau_id){
+        //             document.querySelector("." + morceau.id + " audio").pause()
+        //             document.querySelector("." + morceau.id + " audio").currentTime = 0
+        //         }
+        //     })
+            
+        //     // $(".audioplayer").removeClass("audioplayer-playing")
+
+        //     let morceau = album.filter(a => a.id === morceau_id)[0]
+        //     $(".active_player .playing-song").html(morceau.title)
+        //     $(".active_player audio").attr("src", morceau.link)
+
+        //     document.querySelector("." + morceau_id + " .audioplayer-playpause").click();
+
+
+        //     document.querySelector(".active_player audio").currentTime = document.querySelector("." + morceau_id +
+        //         " audio").currentTime;
+        //     document.querySelector(".active_player audio").volume = 0
+        //     document.querySelector(".active_player .audioplayer-playpause").click();
+
+        // }
+
+        // function itplays(morceau_id) {
+
+        // }
+
+        // function timeupdate(morceau_id) {
+        //     console.log(morceau_id, document.querySelector("." + morceau_id + " audio").currentTime)
+        // }
     </script>
 </body>
 

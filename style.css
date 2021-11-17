@@ -1114,7 +1114,12 @@ img {
     overflow-y: scroll; }
     @media only screen and (max-width: 767px) {
       .featured-album-content .album-all-songs {
-        height: calc(100% - 385px); } }
+        /* height: calc(100% - 385px);  */
+      } 
+      .classy-navbar .nav-brand{
+        font-size: 2rem!important;
+      }
+    }
     .featured-album-content .album-all-songs .audioplayer {
       margin: 0;
       padding: 0;
