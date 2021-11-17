@@ -219,10 +219,10 @@
                     </div>
                 </div>
                 <!-- About Content -->
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 " style="display: flex; align-items: center">
                     <div class="about-content mb-100">
                         <h4>Hello la mif, c'est Thiago San</h4>
-                        <p>Qu'on soit claire, le but de Vamos est de prouver qu'avec de la passion, du travail et de la prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de vivre tous les jours la vie que je veux avant même de l'avoir.
+                        <p>Qu'on soit clair, le but de Vamos est de prouver qu'avec de la passion, du travail et de la prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de vivre tous les jours la vie que je veux avant même de l'avoir.
                         <br>
                         <br>
                         Merci pour votre soutien. Le Ciel est avec nous et nadie nos detendrá.
@@ -608,8 +608,8 @@
                         <div class="widget-title">
                             <h4>Subscribe</h4>
                         </div>
-                        <form class="subscribe-form">
-                            <input type="email"  onsubmit="subscribe_to_newsletter(event)" name="subscribe-email" id="email"
+                        <form class="subscribe-form" onsubmit="subscribe_to_newsletter(event)">
+                            <input type="email"   name="subscribe-email" id="email"
                                 placeholder="Enter your email">
                             <button type="submit">subscribe</button>
                         </form>
@@ -646,6 +646,7 @@
                 tel: $("#email").val()
             }),
             success : function(code_html, statut){ // code_html contient le HTML renvoyé
+                $("#email").val("")
                 alert("Votre inscription a été prise en compte")
             }
         })
