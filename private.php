@@ -163,7 +163,7 @@ and continue to create the future he wanna.
            <br/><br/>
 
 
-Thank you for the precommands !
+Thank you for the pre-orders !
 
            <br/><br/>
 God bless you all !  </p>
@@ -194,7 +194,7 @@ God bless you all !  </p>
                                 </div>
                                 <div class="album-buy-now">
                                     <a target="_blank" href="https://ishr.cm/thiagosan_vamos"
-                                        class="btn thiago_san-btn">Precommand the album</a>
+                                        class="btn thiago_san-btn">Pre-order the album</a>
                                 </div>
                             </div>
 
