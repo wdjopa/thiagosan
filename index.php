@@ -1,6 +1,8 @@
 <?php
-    if((isset($_GET["password"]) && $_GET["password"] == "thiagosanprivatewebsite")){
-        header("Location: private.php?password=thiagosanprivatewebsite");
+    if(date("Y") == "2022" &&date("m") == "08" && intval(date("d")) < 12){
+        if(!(isset($_GET["password"]) && $_GET["password"] == "thiagosanprivatewebsite")){
+            header("Location: coming-soon.php");
+        }
     }
 ?>
 <!DOCTYPE html>
@@ -61,17 +63,17 @@
             color: white;
             margin-left: 1rem;
         }
-        .single-hero-slide{
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            height: 100vh;
-            width: 100vw;
-        }
     </style>
 </head>
 
 <body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="img/core-img/compact-disc.png" alt="">
+        </div>
+    </div>
+
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
         <!-- Navbar Area -->
@@ -114,13 +116,173 @@
                     <p data-animation="fadeInUp" data-delay="300ms">VAMO$</p>
                 </div>
                 <!-- Big Text -->
-                <h2 class="big-text">Coming Soon</h2>
+                <h2 class="big-text">Thiago San</h2>
             </div>
 
         </div>
-      
+        <!-- bg gradients -->
+        <!-- <div class="bg-gradients"></div> -->
+
+        <!-- <div class="slide-down" id="scrollDown">
+            <h6>Slide Down</h6>
+            <div class="line"></div>
+        </div> -->
     </section>
     <!-- ##### Hero Area End ##### -->
+
+      <!-- ##### About Us Area Start ##### -->
+      <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url('img/bg-2.jpg');"
+        id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2>He talks about the project</h2>
+                        <!-- <h6>Sed porta cursus enim, vitae maximus felis luctus iaculis.</h6> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- About Thumbnail -->
+                <div class="col-12 col-lg-6">
+                    <div class="about-thumbnail mb-100" style="height: 80%">
+                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%;" alt="Thiago San - VAMO$">
+                    </div>
+                </div>
+                <!-- About Content -->
+                <div class="col-12 col-lg-6 " style="display: flex; align-items: center">
+                    <div class="about-content mb-100">
+                        <h4>Hi girls, Hi guys
+</h4>
+                        <p>
+
+
+
+The main goal of VAMO$ is just to show that by working
+hard and praying hard everyone can live his best life
+and continue to create the future he wanna.
+           <br/><br/>
+
+
+Thank you for the pre-orders !
+
+           <br/><br/>
+God bless you all !  </p>
+                        <!-- <img src="img/core-img/signature.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### About Us Area End ##### -->
+
+
+    <!-- ##### Featured Album Area Start ##### -->
+    <div class="featured-album-area section-padding-100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="featured-album-content d-flex flex-wrap">
+
+                        <!-- Album Songs -->
+                        <div class="album-songs h-100">
+
+                            <!-- Album Info -->
+                            <div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="album-title">
+                                    <h6>Album</h6>
+                                    <h4>VAMO$</h4>
+                                </div>
+                                <div class="album-buy-now">
+                                    <a target="_blank" href="https://ishr.cm/thiagosan_vamos"
+                                        class="btn thiago_san-btn">Pre-order the album</a>
+                                </div>
+                            </div>
+
+                            <div class="album-all-songs">
+
+                                <!-- Music Playlist -->
+                                <div class="music-playlist">
+                                    <!-- Single Song -->
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- Album Thumbnail -->
+                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg); background-size: contain">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Featured Album Area End ##### -->
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-4">
+                    <div class="footer-widget-area mb-100">
+                        <a href="#" style="font-size: 4rem; font-family: 'Allura', cursive;">Thiago San</a>
+                        <p class="copywrite-text">
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved <br />Made by
+                            <a href="https://lamater.tech" target="_blank">La Mater Tech</a> and hosted with <a
+                                href="https://hostme.space" target="_blank">Hostme.space</a>.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-4 ">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Social</h4>
+                        </div>
+                        <nav>
+                            <ul class="footer-nav">
+
+
+                                <li><a href="https://www.youtube.com/channel/UCZNP_vwHBgexy0KyHW-Wtbw/?sub_confirmation=1">
+                                        YouTube</a></li>
+
+
+                                <li><a href="https://www.instagram.com/thiagosank98/?hl=fr">Instagram</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-4">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Subscribe</h4>
+                        </div>
+                        <form class="subscribe-form" onsubmit="subscribe_to_newsletter(event)">
+                            <input type="email" name="subscribe-email" id="email" placeholder="Enter your email">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
