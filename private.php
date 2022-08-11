@@ -145,7 +145,7 @@
                 <!-- About Thumbnail -->
                 <div class="col-12 col-lg-6">
                     <div class="about-thumbnail mb-100" style="height: 80%">
-                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%; background-size: contain" alt="Thiago San - Vamos">
+                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%;" alt="Thiago San - Vamos">
                     </div>
                 </div>
                 <!-- About Content -->
@@ -211,7 +211,7 @@ God bless you all !  </p>
 
 
                         <!-- Album Thumbnail -->
-                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg);">
+                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg); background-size: contain">
                         </div>
 
                     </div>
