@@ -1,5 +1,5 @@
 <?php
-    if(!(isset($_GET["password"]) && $_GET["password"] == "thiagosanprivatewebsite")){
+    if((isset($_GET["password"]) && $_GET["password"] == "thiagosanprivatewebsite")){
         header("Location: private.php?password=thiagosanprivatewebsite");
     }
 ?>
