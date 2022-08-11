@@ -12,7 +12,7 @@
     <meta property="og:title" content="Achetez l'album Vamos - Thiago San" />
     <meta property="og:description" content="Soutenez le projet et achetez le dernier album de Thiago San" />
     <meta property="og:url" content="https://thiagosan.com/" />
-    <meta property="og:image" content="https://thiagosan.com/img/pochette.jpg" />
+    <meta property="og:image" content="https://thiagosan.com/img/bg.jpg" />
     <meta property="og:site_name" content="Vamos - Thiago San" />
 
     <!-- Title -->
@@ -73,7 +73,8 @@
                     <nav class="classy-navbar justify-content-between" id="thiago_sanNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand">
+                        <a href="https://ishr.cm/thiagosan_vamos
+"  target="_blank" class="nav-brand">
                             Thiago San
                             <!-- <img src="img/core-img/logo.png" alt=""> -->
                         </a>
@@ -94,8 +95,8 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <!-- <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Contact</a></li>
                                 </ul> -->
 
                                 <!-- Social Button -->
@@ -105,9 +106,9 @@
                                     <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
-                                    <a href="https://www.instagram.com/thiago_san_k98/"><i class="fa fa-instagram"
+                                    <a href="https://www.instagram.com/thiagosank98/?hl=fr"><i class="fa fa-instagram"
                                             aria-hidden="true"></i></a>
-                                    <a href="https://www.youtube.com/playlist?list=PLSFktSFcAG2Jy8qaniwtL4vi94yWmsZgC"><i
+                                    <a href="https://www.youtube.com/channel/UCZNP_vwHBgexy0KyHW-Wtbw/?sub_confirmation=1"><i
                                             class="fa fa-youtube" aria-hidden="true"></i></a>
                                 </div>
 
@@ -128,7 +129,7 @@
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
                 <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/pochette.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg.jpg);"></div>
                 <!-- Slide Content -->
                 <div class="hero-slides-content text-center">
                     <h2 data-animation="fadeInUp" data-delay="100ms">Thiago San <span>Thiago San</span></h2>
@@ -150,13 +151,13 @@
     <!-- ##### Hero Area End ##### -->
 
       <!-- ##### About Us Area Start ##### -->
-      <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url('img/thiago.jpg');"
+      <div class="about-us-area section-padding-100-0 bg-img bg-overlay" style="background-image: url('img/bg-2.jpg');"
         id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading">
-                        <h2>Il parle du projet</h2>
+                        <h2>He talks about the project</h2>
                         <!-- <h6>Sed porta cursus enim, vitae maximus felis luctus iaculis.</h6> -->
                     </div>
                 </div>
@@ -165,25 +166,29 @@
             <div class="row">
                 <!-- About Thumbnail -->
                 <div class="col-12 col-lg-6">
-                    <div class="about-thumbnail mb-100">
-                        <img src="img/thiago.jpg" alt="">
+                    <div class="about-thumbnail mb-100" style="height: 80%">
+                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%;" alt="Thiago San - Vamos">
                     </div>
                 </div>
                 <!-- About Content -->
                 <div class="col-12 col-lg-6 " style="display: flex; align-items: center">
                     <div class="about-content mb-100">
-                        <h4>Hello la mif, c'est Thiago San</h4>
-                        <p>Qu'on soit clair, le but de Vamos est de prouver qu'avec de la passion, du travail et de la
-                            prière on parvient à créer chaque jour le futur dans lequel on souhaite vivre. C'est
-                            pourquoi je me suis donné comme objectif de signer dans une maison de production grâce à ce
-                            projet. Les délais que je me suis fixés rendent l'objectif plus excitant et me permettent de
-                            vivre tous les jours la vie que je veux avant même de l'avoir.
-                            <br>
-                            <br>
-                            Merci pour votre soutien. Le Ciel est avec nous et nadie nos detendrá.
-                            <br>
-                            <br>
-                            Hasta luego !</p>
+                        <h4>Hi girls, Hi guys
+</h4>
+                        <p>
+ 
+
+
+The main goal of VAMO$ is just to show that by working
+hard and praying hard everyone can live his best life
+and continue to create the future he wanna.
+           <br/><br/>
+
+     
+Thank you for the precommands !     
+
+           <br/><br/>
+God bless you all !  </p>
                         <!-- <img src="img/core-img/signature.png" alt=""> -->
                     </div>
                 </div>
@@ -200,10 +205,6 @@
                 <div class="col-12">
                     <div class="featured-album-content d-flex flex-wrap">
 
-                        <!-- Album Thumbnail -->
-                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg);">
-                        </div>
-
                         <!-- Album Songs -->
                         <div class="album-songs h-100">
 
@@ -214,8 +215,8 @@
                                     <h4>Vamos</h4>
                                 </div>
                                 <div class="album-buy-now">
-                                    <a target="_blank" href="https://shr.cm/albumThiagoSan"
-                                        class="btn thiago_san-btn">Précommander l'album</a>
+                                    <a target="_blank" href="https://ishr.cm/thiagosan_vamos" 
+                                        class="btn thiago_san-btn">Precommand the album</a>
                                 </div>
                             </div>
 
@@ -240,6 +241,12 @@
                             </div> -->
 
                         </div>
+
+                        
+                        <!-- Album Thumbnail -->
+                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/pochette.jpg);">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -604,11 +611,11 @@
                             <ul class="footer-nav">
 
 
-                                <li><a href="https://www.youtube.com/playlist?list=PLSFktSFcAG2Jy8qaniwtL4vi94yWmsZgC">
+                                <li><a href="https://www.youtube.com/channel/UCZNP_vwHBgexy0KyHW-Wtbw/?sub_confirmation=1">
                                         YouTube</a></li>
 
 
-                                <li><a href="https://www.instagram.com/thiago_san_k98/">Instagram</a></li>
+                                <li><a href="https://www.instagram.com/thiagosank98/?hl=fr">Instagram</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -658,21 +665,27 @@
                 }),
                 success: function (code_html, statut) { // code_html contient le HTML renvoyé
                     $("#email").val("")
-                    alert("Votre inscription a été prise en compte")
+                    alert("Thank you for subscribing to our newsletter!")
                 }
             })
         }
     </script>
 
     <script>
-        let album = [{
-                title: "La Ronneda",
+        let album = [
+            // {
+            //     title: "La Ronneda",
+            //     link: "audio/la_ronneda.aac",
+            //     id: "la_ronneda"
+            // },
+            {
+                title: "Get Out Of My Life / Sors De Ma Vie",
                 link: "audio/la_ronneda.aac",
-                id: "la_ronneda"
+                id: "sors_de_ma_vie"
             },
             {
-                title: "J'te cherche ft Thalia (Extrait)",
-                link: "audio/jte_cherche.mp3",
+                title: "Looking For You / J'te cherche",
+                link: "audio/JteChercheNewExtract.wav",
                 id: "jte_cherche"
             },
             // {
@@ -752,7 +765,7 @@
         //     // $(".audioplayer").removeClass("audioplayer-playing")
 
         //     let morceau = album.filter(a => a.id === morceau_id)[0]
-        //     $(".active_player .playing-song").html(morceau.title)
+        //     $(".active_player .playing-(morceau.title)
         //     $(".active_player audio").attr("src", morceau.link)
 
         //     document.querySelector("." + morceau_id + " .audioplayer-playpause").click();
