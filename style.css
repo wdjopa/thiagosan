@@ -1150,17 +1150,17 @@ img {
       color: #ffffff; }
   .featured-album-content .album-thumbnail {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 45%;
-    flex: 0 0 45%;
-    max-width: 45%;
-    width: 45%; }
+    -ms-flex: 0 0 55%;
+    flex: 0 0 55%;
+    max-width: 55%;
+    width: 55%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .featured-album-content .album-thumbnail {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 30%;
-        flex: 0 0 30%;
-        max-width: 30%;
-        width: 30%; } }
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%; } }
     @media only screen and (max-width: 767px) {
       .featured-album-content .album-thumbnail {
         -webkit-box-flex: 0;
@@ -1171,20 +1171,20 @@ img {
         height: 200px !important; } }
   .featured-album-content .album-songs {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 55%;
-    flex: 0 0 55%;
-    max-width: 55%;
-    width: 55%;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+    width: 45%;
     position: relative;
     z-index: 10;
     padding: 50px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .featured-album-content .album-songs {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 70%;
-        flex: 0 0 70%;
-        max-width: 70%;
-        width: 70%; } }
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 50%; } }
     @media only screen and (max-width: 767px) {
       .featured-album-content .album-songs {
         -webkit-box-flex: 0;
