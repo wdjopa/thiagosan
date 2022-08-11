@@ -14,14 +14,14 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <meta property="og:type" content="Music" />
-    <meta property="og:title" content="Achetez l'album Vamos - Thiago San" />
+    <meta property="og:title" content="Achetez l'album VAMO$ - Thiago San" />
     <meta property="og:description" content="Soutenez le projet et achetez le dernier album de Thiago San" />
     <meta property="og:url" content="https://thiagosan.com/" />
     <meta property="og:image" content="https://thiagosan.com/img/bg.jpg" />
-    <meta property="og:site_name" content="Vamos - Thiago San" />
+    <meta property="og:site_name" content="VAMO$ - Thiago San" />
 
     <!-- Title -->
-    <title>Thiago San - Vamos</title>
+    <title>Thiago San - VAMO$</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -111,7 +111,7 @@
                 <!-- Slide Content -->
                 <div class="hero-slides-content text-center">
                     <h2 data-animation="fadeInUp" data-delay="100ms">Thiago San <span>Thiago San</span></h2>
-                    <p data-animation="fadeInUp" data-delay="300ms">Vamos</p>
+                    <p data-animation="fadeInUp" data-delay="300ms">VAMO$</p>
                 </div>
                 <!-- Big Text -->
                 <h2 class="big-text">Thiago San</h2>
@@ -145,7 +145,7 @@
                 <!-- About Thumbnail -->
                 <div class="col-12 col-lg-6">
                     <div class="about-thumbnail mb-100" style="height: 80%">
-                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%;" alt="Thiago San - Vamos">
+                        <img src="img/thiago.jpg" style="object-fit: cover; height: 100%;" alt="Thiago San - VAMO$">
                     </div>
                 </div>
                 <!-- About Content -->
@@ -190,7 +190,7 @@ God bless you all !  </p>
                             <div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
                                 <div class="album-title">
                                     <h6>Album</h6>
-                                    <h4>Vamos</h4>
+                                    <h4>VAMO$</h4>
                                 </div>
                                 <div class="album-buy-now">
                                     <a target="_blank" href="https://ishr.cm/thiagosan_vamos"
